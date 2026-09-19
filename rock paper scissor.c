@@ -40,6 +40,7 @@ int winner(int user, int comp){
     }
     else{
         printf("Computer wins\n");
-    }
+    }printf("Your choice: %d\n", user);
+    printf("Computer's choice: %d\n", comp);
     return 0;
 }
